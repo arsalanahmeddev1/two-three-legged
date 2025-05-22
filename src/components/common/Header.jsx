@@ -5,10 +5,10 @@ import { Button } from "@/components/ui/button"
 import logo from '@/assets/images/logo.png'
 import { nav } from '@/constants/data';
 import Link from "next/link";
-import Input from "./ui/Input";
+import Input from "../ui/Input";
 export function Header() {
   return (
-    <header className="header">
+    <header className="header pt-[64px] pb-[20px]">
       <div className="container">
         <div className="flex flex-between">
           <div className="logo">
@@ -22,7 +22,7 @@ export function Header() {
             <ul className="flex-between">
               {nav.map((item, index) => (
                 <li key={index}>
-                  <Link href={item.href}>
+                  <Link href={item.href} className="uppercase">
                     {item.name}
                   </Link>
                 </li>
@@ -38,9 +38,9 @@ export function Header() {
                 icon={<FiSearch className="text-gray-500" />}
                 iconPosition="right"
                 className="w-full"
-              // value={search}
-              // onChange={handleSearch}
-              />
+                />
+              {/* // value={search}
+              // onChange={handleSearch} */}
               {/* <div className="flex-center"> */}
               {/* </div> */}
             </form>

@@ -42,21 +42,7 @@
   --radius-lg: var(--radius);
   --radius-xl: calc(var(--radius) + 4px);
 }
-body {
-  font-family: var(--font-poppins);
-}
-.container {
-  @apply mx-auto;
-}
-.flex-between {
-  @apply flex justify-between items-center;
-}
-.flex-center {
-  @apply flex justify-center items-center;
-}
-.flex-end {
-  @apply flex justify-end items-center;
-}
+
 
 :root {
   --radius: 0.625rem;
@@ -134,4 +120,34 @@ body {
   body {
     @apply bg-background text-foreground;
   }
+}
+/* globals */
+body {
+  font-family: var(--font-poppins);
+}
+.secondary-font {
+  font-family: var(--font-cinzel);
+}
+.container {
+  @apply mx-auto;
+}
+.flex-between {
+  @apply flex justify-between items-center;
+}
+.flex-center {
+  @apply flex justify-center items-center;
+}
+.flex-end {
+  @apply flex justify-end items-center;
+}
+/* globals end */
+
+.hero-banner {
+  background-image: url("../assets/images/hero-banner.png");
+}
+.featured-section {
+  background-image: url("/images/featured-bg.png");
+}
+.sec-title {
+  @apply text-center text-[55px] font-bold uppercase;
 }

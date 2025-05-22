@@ -16,7 +16,7 @@ export default function Input({
 }) {
   const baseStyles = "w-full  border border-[#707070]"
   const variants = {
-    form: "bg-[#fff] py-[23px] px-[29px]",
+    form: "bg-[#fff] py-[12px] px-[29px]",
     search: "py-[12px] px-[18px]"
   }
   return (

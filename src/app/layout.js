@@ -1,4 +1,5 @@
-import { Header } from "@/components";
+import {  Banner } from "@/components";
+import { Header, Footer } from "@/components/common";
 import { Poppins, Cinzel } from "next/font/google";
 import "../styles/style.css";
 

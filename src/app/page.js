@@ -1,12 +1,15 @@
 import Image from "next/image";
-
+import { Banner, Featured, FilterProfiles, LoveArt } from "@/components";
 export default function Home() {
   return (
     <div className="">
       <main className="">
-        <h1>banner</h1>
+        <Banner />
+        <Featured />
+        <FilterProfiles />
+        <LoveArt />
       </main>
-      
+
     </div>
   );
 }
