@@ -11,13 +11,12 @@ export default function Input({
   iconSize = 'text-[27px]',
   ...props
 
-
-
 }) {
-  const baseStyles = "w-full  border border-[#707070]"
+  const baseStyles = "w-full border border-[#707070]"
   const variants = {
-    form: "bg-[#fff] py-[12px] px-[29px]",
-    search: "py-[12px] px-[18px]"
+    form: "bg-[#fff] py-[12px] px-[29px] focus:outline-none focus:ring-1 focus:ring-[#000] focus:border-[#000]",
+    search: "py-[12px] px-[18px]",
+    contact: "border border-[#707070] py-[14px] px-[29px]"
   }
   return (
     <div className={clsx("relative flex items-center", className)}>

@@ -4,3 +4,8 @@ export { Footer } from "./common/Footer";
 export { Featured } from "./Featured";
 export { FilterProfiles } from "./FilterProfiles";
 export { LoveArt } from "./LoveArt";
+export { Newsletter } from "./NewsLetter";
+export { Categories } from "./Categories";
+export { SourceArt } from "./SourceArt";
+export { Partners } from "./Partners";
+export { Contact } from "./Contact";

@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export const Featured = () => {
   	return (
-    		<div className="featured-section secondary-font w-full relative h-[1281px] flex flex-col items-center justify-center py-[113px] px-0 box-border gap-[63px]  bg-cover bg-no-repeat bg-[top] text-left text-[55px] text-black font-cinzel">
+    		<div className="featured-section  secondary-font w-full relative h-[1281px] flex flex-col items-center justify-center py-[113px] px-0 box-border gap-[63px]  bg-cover bg-no-repeat bg-[top] text-left text-[55px] text-black font-cinzel">
       			<b className="w-[814px] relative leading-[107px] inline-block h-[107px] shrink-0">Featured Artist pROFILES</b>
       			<div className="w-[1640px]   h-[895px] flex flex-col relative text-3xl text-white">
         				<div className="absolute top-[0px] left-[0px] w-[812px] h-[591px] z-[0]">
