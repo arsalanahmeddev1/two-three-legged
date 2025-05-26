@@ -6,6 +6,7 @@ import Input from './ui/Input';
 import { contactInputs } from '@/constants/data';
 import CustomSelect from './ui/Select';
 import Textarea from './ui/Textarea';
+import { Button } from './ui/button';
 const renderField = (field) => {
   if (["text", "email", "phone", "number", "password"].includes(field.type)) {
     return (
@@ -39,6 +40,7 @@ const renderField = (field) => {
         key={field.name}
         name={field.name}
         placeholder={field.placeholder}
+        className='mt-[10px]'
       />
     );
   }
@@ -47,8 +49,8 @@ const renderField = (field) => {
 };
 export const Contact = () => {
   return (
-    <div className='container'>
-      <div className="flex-center">
+    <div className='container pb-[80px]'>
+      <div className="flex-start">
         <div className="w-1/2">
           <h3 className='secondary-font uppercase mb-[40px] text-[55px] text-[#000]'>Connect with us</h3>
           <div className="flex-start mb-[20px] gap-[10px]">
@@ -89,7 +91,7 @@ export const Contact = () => {
           <form>
             <div className="flex-between flex-wrap">
             {contactInputs.map((field) => renderField(field))}
-            <button type="submit">Submit</button>
+            <Button className='rounded-[60px] ml-auto text-[16px] font-bold mt-[20px] capitalize' variant="default" size="xl">Submit</Button>
             </div>
           </form>
         </div>

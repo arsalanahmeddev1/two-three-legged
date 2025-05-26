@@ -10,9 +10,9 @@ const buttonVariants = cva(
     variants: {
       variant: {
         default:
-          "bg-[#000]  text-[#fff]",
+          "bg-[#000]  text-[#fff] border border-transparent",
         secondary:
-          "border border-[#707070]  text-[#000]",
+          "border border-[#707070]  text-[#000] ",
         tertiary:
           "border border-[#707070] text-[#949494]",
         destructive:

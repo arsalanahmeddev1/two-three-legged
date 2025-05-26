@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { Banner, Featured, FilterProfiles, LoveArt, Newsletter, Categories, SourceArt, Partners, Contact } from "@/components";
+import { Banner, Featured, FilterProfiles, LoveArt, Newsletter, Categories, SourceArt, Partners, Contact, MarketPlace } from "@/components";
 export default function Home() {
   return (
     <div className="">
@@ -8,6 +8,7 @@ export default function Home() {
         <Featured />
         <FilterProfiles />
         <LoveArt />
+        <MarketPlace />
         <Newsletter />
         <Categories />
         <SourceArt />

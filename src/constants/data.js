@@ -14,6 +14,7 @@ export const selects = [
       { label: "Art", value: "art" },
       { label: "Photography", value: "photography" },
     ],
+    className: 'mb-[10px]'
   },
   {
     name: "artist",
@@ -97,28 +98,28 @@ export const categories = [
       name: "firstName",
       placeholder: "First Name",
       variant: "contact",
-      className: 'w-1/2'
+      className: 'w-[49%] mb-[10px]'
     },
     {
       type: "text",
       name: "lastName",
       placeholder: "Last Name",
       variant: "contact",
-      className: 'w-1/2'
+      className: 'w-[49%] mb-[10px]'
     },
     {
       type: "email",
       name: "email",
       placeholder: "Email",
       variant: "contact",
-      className: 'w-1/2'
+      className: 'w-[49%] mb-[10px]'
     },
     {
       type: "phone",
       name: "name",
       placeholder: "Phone no",
       variant: "contact",
-      className: 'w-1/2'
+      className: 'w-[49%] mb-[10px]'
     },
     {
       type: "select",

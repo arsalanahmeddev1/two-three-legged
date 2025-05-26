@@ -4,7 +4,9 @@ import { CiHeart } from "react-icons/ci";
 import { FaCaretDown } from "react-icons/fa";
 import { IoCall } from "react-icons/io5";
 import { MdOutlineMailOutline } from "react-icons/md";
-
+import { FaFacebookF } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+import { FaLinkedinIn } from "react-icons/fa";
 
 
 
@@ -16,4 +18,7 @@ export {
   FaCaretDown,
   IoCall,
   MdOutlineMailOutline,
+  FaFacebookF,
+  FaInstagram,
+  FaLinkedinIn,
 }

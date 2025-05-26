@@ -16,7 +16,9 @@ export default function Input({
   const variants = {
     form: "bg-[#fff] py-[12px] px-[29px] focus:outline-none focus:ring-1 focus:ring-[#000] focus:border-[#000]",
     search: "py-[12px] px-[18px]",
-    contact: "border border-[#707070] py-[14px] px-[29px]"
+    contact: "border border-[#707070] py-[14px] px-[29px]",
+    contactFooter: "border border-white py-[14px] px-[29px]",
+    subscribe: "bg-white border border-[#707070] border-r-0 text-[16px] placeholder:text-[#949494] p-[17px]"
   }
   return (
     <div className={clsx("relative flex items-center", className)}>

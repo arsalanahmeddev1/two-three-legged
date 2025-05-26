@@ -9,3 +9,4 @@ export { Categories } from "./Categories";
 export { SourceArt } from "./SourceArt";
 export { Partners } from "./Partners";
 export { Contact } from "./Contact";
+export { MarketPlace } from "./MarketPlace";
